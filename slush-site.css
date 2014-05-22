@@ -1,0 +1,95 @@
+body {
+  font-family: ubuntu, sans-serif;
+  color: #4a2543;
+}
+a {
+  color: #934a86;
+}
+a:hover,
+a:focus {
+  color: #b163a3;
+}
+.link-secondary {
+  color: #4e9c5c;
+}
+.link-secondary:hover,
+.link-secondary:focus {
+  color: #6cb579;
+}
+h1 {
+  color: #b163a3;
+}
+.headline {
+  padding: 73px 0 110px;
+  text-align: center;
+}
+.header-logo {
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  margin: 10px 0;
+}
+.header-logo .logo {
+  background: url("assets/slush.png") center 0 no-repeat;
+  -webkit-background-size: auto 350px;
+  -moz-background-size: auto 350px;
+  background-size: auto 350px;
+  height: 350px;
+  margin: 0 auto 26px;
+  overflow: hidden;
+  text-indent: -9999em;
+  direction: ltr;
+  width: 236px;
+}
+.header-logo small {
+  color: rgba(52,73,94,0.3);
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding-top: 5px;
+}
+input,
+textarea,
+button {
+  font: inherit;
+}
+.form-group.focus .form-control,
+.form-control:focus {
+  border-color: #b163a3;
+}
+.search-form .search-field:focus + .search-field-icon {
+  color: #b163a3;
+}
+.search-form .search-field-icon {
+  color: #bfc9ca;
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  -ms-transition: 0.25s;
+  transition: 0.25s;
+}
+.label-primary {
+  background-color: #4e9c5c;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: #6cb579;
+}
+.pagination ul li > a:hover,
+.pagination ul li > a:focus,
+.pagination ul li > span:hover,
+.pagination ul li > span:focus {
+  background-color: #b163a3;
+  border-color: #b163a3;
+  cursor: pointer;
+}
+
+.home {
+  color: #808080;
+}
