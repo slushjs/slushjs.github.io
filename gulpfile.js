@@ -160,8 +160,9 @@ gulp.task('dist', ['assets', 'fonts', 'vendors', 'styles-dist', 'scripts-dist'],
 gulp.task('deploy', ['dist'], function () {
   gulp.src("./dist/**/*")
     .pipe(g.ghPages({
-      remoteUrl: 'https://github.com/slushjs/generators.git',
-      cacheDir: '.tmp'
+      remoteUrl: 'https://github.com/slushjs/slushjs.github.io.git',
+      cacheDir: '.tmp',
+      branch: 'master'
     }));
 });
 
